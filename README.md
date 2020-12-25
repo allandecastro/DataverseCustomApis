@@ -18,6 +18,11 @@ This project is intended to evolve!
 
 ### Project Installation
 
+As discussed above, there are severals components to be installed/initiated if you want to use this new feature.
+That the reason 
+
+- - - -
+
 ### Custom APIs
 
 Here is the complete list of Custom APIs included in this project:
