@@ -1,0 +1,11 @@
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\bin\Debug\Dataverse.CustomApis.dll
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\bin\Debug\Dataverse.CustomApis.pdb
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\obj\Debug\Dataverse.CustomApis.csprojAssemblyReference.cache
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\obj\Debug\Dataverse.CustomApis.csproj.CoreCompileInputs.cache
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\obj\Debug\Dataverse.CustomApis.csproj.CopyComplete
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\obj\Debug\Dataverse.CustomApis.dll
+C:\Users\allan\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.CustomApis\obj\Debug\Dataverse.CustomApis.pdb

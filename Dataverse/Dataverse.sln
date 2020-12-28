@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataverse.CustomApis", "Dataverse.CustomApis\Dataverse.CustomApis.csproj", "{22AB1497-EFDD-4650-A8AA-6884317C20E8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Dataverse.Shared", "Dataverse.Shared\Dataverse.Shared.shproj", "{5A38ECBA-1B19-4F10-85CD-385354145DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataverse.CustomApis.Tests", "Dataverse.CustomApis.Tests\Dataverse.CustomApis.Tests.csproj", "{EB2F4FBF-3C0A-43AB-B879-6EF1AC3EE32F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22AB1497-EFDD-4650-A8AA-6884317C20E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AB1497-EFDD-4650-A8AA-6884317C20E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AB1497-EFDD-4650-A8AA-6884317C20E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AB1497-EFDD-4650-A8AA-6884317C20E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2F4FBF-3C0A-43AB-B879-6EF1AC3EE32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2F4FBF-3C0A-43AB-B879-6EF1AC3EE32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2F4FBF-3C0A-43AB-B879-6EF1AC3EE32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2F4FBF-3C0A-43AB-B879-6EF1AC3EE32F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A45B54AA-2005-4AB6-B4A6-A4E4505CC89E}
+	EndGlobalSection
+EndGlobal
