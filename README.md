@@ -28,15 +28,61 @@ That the reason
 Here is the complete list of Custom APIs included in this project:
 
 <details>
-           <summary>CalculateRollupField</summary>
-           <p>description</p>
+           <summary>🆕 AddRoleToTeam</summary>
+           <p>
+
+This custom API allows you to add a specific security role (using the name or reference to that security role) to a specific user (or to the InitiatingUser if the parameter is not met).</p>
+           
+InputParameters | Type | Optional
+| :---: | :---: | :---:
+RoleName  | String | ❌
+Role  | EntityReference | ❌
+TeamName  | String | ❌
+Team  | EntityReference | ❌
 
 </details>
 <details>
-             <summary>GetEnvironmentVariable</summary>
+             <summary>🆕 AddRoleToUser</summary>
            <p>GetEnvironmentVariable description</p>
 </details>
 <details>
-             <summary>CloneRecord</summary>
+             <summary>🆕 AddUserToTeam</summary>
            <p>ContentClone record</p>
 </details>
+<details>
+             <summary>🆕 CalculateRollUpField</summary>
+           <p>ContentClone record</p>
+</details>
+<details>
+             <summary>🆕 CheckUserInRole</summary>
+           <p>ContentClone record</p>
+</details>
+<details>
+             <summary>🆕 CheckUserInTeam</summary>
+           <p>ContentClone record</p>
+</details>
+<details>
+             <summary>🆕 EmailToTeam</summary>
+           <p>ContentClone record</p>
+</details>
+<details>
+             <summary>🆕 GetEnvironmentVariable</summary>
+           <p>ContentClone record</p>
+</details>
+<details>
+             <summary>🆕 RemoveRoleFromTeam</summary>
+           <p>ContentClone record</p>
+</details>
+<details>
+             <summary>🆕 RemoveRoleFromUser</summary>
+           <p>ContentClone record</p>
+</details>
+<details>
+             <summary>🆕 RemoveUserFromTeam</summary>
+           <p>ContentClone record</p>
+</details>
+
+### Calling Custom APIs from JavaScript
+### Calling Custom APIs from SDK
+### Calling Custom APIs from WebAPI
+### Calling Custom APIs from Power Automate (Cloud Flows)
