@@ -198,11 +198,66 @@ IsUserInTeam | Boolean
 </details>
 
 ### Calling Custom APIs from JavaScript
+
+Request:
+
 ```javascript
  function RunAction() {
+var parameters = {};
+parameters.FieldName = "adc_rollupdecimal";
+var entity = {};
+entity.accountid = "95559db1-710c-eb11-a816-002248049f5d"; 
+entity["@odata.type"] = "Microsoft.Dynamics.CRM.account";
+parameters.Entity = entity;
+
+var dtv_CalculateRollupFieldRequest = {
+    FieldName: parameters.FieldName,
+    Entity: parameters.Entity,
+
+    getMetadata: function() {
+        return {
+            boundParameter: null,
+            parameterTypes: {
+                "FieldName": {
+                    "typeName": "Edm.String",
+                    "structuralProperty": 1
+                },
+                "Entity": {
+                    "typeName": "mscrm.crmbaseentity",
+                    "structuralProperty": 5
+                }
+            },
+            operationType: 0,
+            operationName: "dtv_CalculateRollupField"
+        };
+    }
+};
+
+Xrm.WebApi.online.execute(dtv_CalculateRollupFieldRequest).then(
+    function success(result) {
+        if (result.ok) {
+            var results = JSON.parse(result.responseText);
+        }
+    },
+    function(error) {
+        Xrm.Utility.alertDialog(error.message);
+    }
+);
  }
 ```
 
+Response:
+```json
+{
+
+    @odata.context:"https://org.crm.dynamics.com/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.dtv_CalculateRollupFieldResponse",
+    MoneyValue: null ,
+    DateTimeValue: null ,
+    WholeNumberValue: null ,
+    DecimalValue:35.67
+
+}
+```
 ### Calling Custom APIs from SDK
 
 
