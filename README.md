@@ -250,11 +250,11 @@ Response:
 ```json
 {
 
-    @odata.context:"https://org.crm.dynamics.com/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.dtv_CalculateRollupFieldResponse",
-    MoneyValue: null ,
-    DateTimeValue: null ,
-    WholeNumberValue: null ,
-    DecimalValue:35.67
+    "@odata.context":"https://org.crm.dynamics.com/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.dtv_CalculateRollupFieldResponse",
+    "MoneyValue": null ,
+    "DateTimeValue": null ,
+    "WholeNumberValue": null ,
+    "DecimalValue":35.67
 
 }
 ```
@@ -271,6 +271,34 @@ OrganizationResponse response = svc.Execute(request);
 ```
 
 ### Calling Custom APIs from WebAPI
+
+Request:
+```
+https://pcfinstance.crm.dynamics.com/api/data/v9.0/dtv_CalculateRollupField()
+```
+
+Request Body:
+```json
+{
+    "FieldName":"adc_rollupcurrency",
+    "Entity":{
+        "accountid":"95559db1-710c-eb11-a816-002248049f5d",
+        "@odata.type":"Microsoft.Dynamics.CRM.account"
+    }
+}
+```
+
+Response:
+```json
+{
+    "@odata.context": "https://org.crm.dynamics.com/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.dtv_CalculateRollupFieldResponse",
+    "MoneyValue": 16000.0000000000,
+    "DateTimeValue": null,
+    "WholeNumberValue": null,
+    "DecimalValue": null
+}
+```
+
 ### Calling Custom APIs from Power Automate (Cloud Flows)
 
 
