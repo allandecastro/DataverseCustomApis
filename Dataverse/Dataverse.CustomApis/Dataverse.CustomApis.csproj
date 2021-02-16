@@ -62,18 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddRoleToTeam.cs" />
-    <Compile Include="AddRoleToUser.cs" />
-    <Compile Include="AddUserToTeam.cs" />
-    <Compile Include="CalculateRollupField.cs" />
-    <Compile Include="CheckUserInRole.cs" />
-    <Compile Include="CheckUserInTeam.cs" />
-    <Compile Include="EmailToTeam.cs" />
-    <Compile Include="GetEnvironmentVariable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RemoveRoleFromTeam.cs" />
-    <Compile Include="RemoveRoleFromUser.cs" />
-    <Compile Include="RemoveUserFromTeam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Key.snk" />
