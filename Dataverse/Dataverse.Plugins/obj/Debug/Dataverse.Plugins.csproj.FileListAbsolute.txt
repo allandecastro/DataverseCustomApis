@@ -1,0 +1,11 @@
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\bin\Debug\Dataverse.Plugins.dll
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\bin\Debug\Dataverse.Plugins.pdb
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\obj\Debug\Dataverse.Plugins.csprojAssemblyReference.cache
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\obj\Debug\Dataverse.Plugins.csproj.CoreCompileInputs.cache
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\obj\Debug\Dataverse.Plugins.csproj.CopyComplete
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\obj\Debug\Dataverse.Plugins.dll
+C:\Users\allan.de.castro\Documents\GitHub\DataverseCustomApis\Dataverse\Dataverse.Plugins\obj\Debug\Dataverse.Plugins.pdb

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22AB1497-EFDD-4650-A8AA-6884317C20E8}</ProjectGuid>
+    <ProjectGuid>{168F9527-2CD9-47A2-9CBA-8E0A23CD9B05}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dataverse.CustomApis</RootNamespace>
-    <AssemblyName>Dataverse.CustomApis</AssemblyName>
+    <RootNamespace>Dataverse.Plugins</RootNamespace>
+    <AssemblyName>Dataverse.Plugins</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -62,7 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dtv_GetEnvironmentVariable.cs" />
+    <Compile Include="HackingPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
